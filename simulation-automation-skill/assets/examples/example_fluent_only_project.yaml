@@ -1,0 +1,13 @@
+project_name: example_fluent_only
+workflow_mode: fluent_only
+software_paths:
+  python_exe: "<path-to-python>"
+  fluent_exe: "<path-to-fluent>"
+outputs:
+  root: outputs
+cases:
+  - name: baseline
+parameters:
+  unit_system: SI
+report_options:
+  generate_final_audit: true

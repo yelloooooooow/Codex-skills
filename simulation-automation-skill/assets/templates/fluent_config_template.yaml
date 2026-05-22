@@ -1,0 +1,30 @@
+software_paths:
+  python_exe: "<path-to-python>"
+  fluent_exe: "<path-to-fluent>"
+dimension: 2d
+geometry:
+  coordinate_system: "<describe axes>"
+  parameters: {}
+mesh:
+  cell_count_target: 50000
+  quality_warnings:
+    max_aspect_ratio: 20
+    max_skewness: 0.95
+materials:
+  material_1:
+    density: null
+    viscosity: null
+    thermal_conductivity: null
+boundary_conditions:
+  inlet: {}
+  outlet: {}
+  walls: {}
+solver:
+  mode: transient
+  time_step_s: 1
+  physical_time_s: 600
+  iterations_per_step: 20
+outputs:
+  interval_s: 60
+  save_case_data: true
+fallback_journal: journals/fallback.jou

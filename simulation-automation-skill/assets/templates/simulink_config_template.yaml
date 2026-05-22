@@ -1,0 +1,18 @@
+model_name: example_model
+solver:
+  stop_time_s: 86400
+  solver_name: ode15s
+  max_step_s: auto
+cases:
+  - name: baseline
+    variables: {}
+logged_signals:
+  - time_s
+  - state
+  - output
+  - power_W
+  - energy_J
+screenshot_subsystems:
+  - example_model/Controller
+  - example_model/Plant
+output_dir: results

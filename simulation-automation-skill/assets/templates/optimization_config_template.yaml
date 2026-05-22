@@ -1,0 +1,16 @@
+baseline_parameters:
+  design_name: baseline
+design_variables:
+  variable_1: [1, 2, 3]
+constraints:
+  - name: physical_bounds
+    expression: "state_min >= lower_bound"
+objectives:
+  technical:
+    - maximize_efficiency
+  economic:
+    - minimize_LCOH
+pareto_options:
+  keep_infeasible: true
+  max_full_validation_candidates: 10
+economics_coupling: true

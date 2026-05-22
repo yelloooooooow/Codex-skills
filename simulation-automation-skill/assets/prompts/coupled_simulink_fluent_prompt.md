@@ -1,0 +1,1 @@
+Use the simulation automation skill for a coupled Simulink + Fluent workflow. Define Simulink as the system model and Fluent as the local/unit CFD model unless instructed otherwise. Align outputs, compare common variables, fit a raw correction, derive a conservative correction, rerun calibrated cases in a new folder, and report original vs calibrated results.

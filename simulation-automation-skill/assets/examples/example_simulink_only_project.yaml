@@ -1,0 +1,12 @@
+project_name: example_simulink_only
+workflow_mode: simulink_only
+software_paths:
+  matlab_exe: "<path-to-matlab>"
+outputs:
+  root: outputs
+cases:
+  - name: baseline
+parameters:
+  unit_system: SI
+report_options:
+  generate_final_audit: true

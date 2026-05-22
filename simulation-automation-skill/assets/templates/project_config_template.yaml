@@ -1,0 +1,18 @@
+project_name: example_simulation_project
+workflow_mode: coupled  # simulink_only / fluent_only / coupled / review_only
+software_paths:
+  matlab_exe: "<path-to-matlab-or-empty>"
+  python_exe: "<path-to-python>"
+  fluent_exe: "<path-to-fluent-executable>"
+cases:
+  - name: baseline
+    description: "Baseline design"
+parameters:
+  unit_system: SI
+outputs:
+  root: outputs
+  keep_baseline_read_only: true
+report_options:
+  generate_figures: true
+  generate_videos: false
+  generate_final_audit: true

@@ -1,0 +1,1 @@
+Use the simulation automation skill for a Fluent-only workflow. Check Python, Fluent, PyFluent, and license availability; create geometry, mesh, named boundaries, materials, solver settings, output CSVs, contour/vector plots, animations, logs, and journal fallback. Do not assume PyFluent is installed.

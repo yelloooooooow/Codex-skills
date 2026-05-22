@@ -1,0 +1,1 @@
+Use the simulation automation skill for optimization. Preserve the baseline design, generate candidate designs, evaluate constraints, classify technical-optimal, economic-optimal, and balanced-optimal solutions, compute Pareto fronts, and recompute economics for design changes.

@@ -1,0 +1,12 @@
+currency: EUR
+discount_rate: 0.04
+project_lifetime_years: 20
+capex:
+  component_A_EUR_per_kW: 1000
+opex:
+  fixed_om_fraction: 0.02
+  energy_price_EUR_per_kWh: 0.15
+sensitivity_ranges:
+  discount_rate: [0.02, 0.04, 0.08]
+  energy_price_scale: [0.7, 1.0, 1.3]
+  capex_scale: [0.7, 1.0, 1.3]

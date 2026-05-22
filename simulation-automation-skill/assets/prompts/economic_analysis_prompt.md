@@ -1,0 +1,1 @@
+Use the simulation automation skill for techno-economic analysis. Compute CAPEX, OPEX, annualized CAPEX, TAC, LCOH, NPC, and sensitivity ranges. Distinguish direct source values, assumptions, and estimates. Keep units explicit.

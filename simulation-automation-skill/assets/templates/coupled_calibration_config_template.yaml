@@ -1,0 +1,11 @@
+simulink_result_path: results/simulink_case_baseline.csv
+fluent_result_path: fluent/outputs/csv/cfd_summary.csv
+comparison_variables:
+  - T_avg
+  - state_avg
+  - heat_rate
+correction_factor_type: k_eff_multiplier
+raw_search_range: [0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0]
+conservative_weight: 0.5
+conservative_bounds: [0.7, 2.0]
+output_dir: results_calibrated

@@ -1,0 +1,1 @@
+Use the simulation automation skill for result visualization. Generate publication-quality figures, videos, model screenshots, CFD schematics, figure explanations, video explanations, and paper/report indexes. Keep color scales consistent for comparisons and include units.

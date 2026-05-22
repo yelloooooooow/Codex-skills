@@ -1,0 +1,21 @@
+{
+  "name": "simulation-automation-skill",
+  "version": "0.1.0",
+  "description": "Agent Skill for Simulink, Fluent, coupled calibration, optimization, techno-economic analysis, visualization, and final simulation audit workflows.",
+  "license": "MIT",
+  "entrypoint": "SKILL.md",
+  "workflows": [
+    "simulink_only",
+    "fluent_only",
+    "coupled_simulink_fluent",
+    "optimization",
+    "techno_economic",
+    "visualization",
+    "final_audit"
+  ],
+  "requires_user_software": [
+    "MATLAB/Simulink for Simulink workflows",
+    "Ansys Fluent for Fluent workflows",
+    "PyFluent for preferred Fluent automation"
+  ]
+}

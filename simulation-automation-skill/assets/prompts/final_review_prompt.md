@@ -1,0 +1,1 @@
+Use the simulation automation skill for final project review. Audit structure, parameters, units, Simulink results, Fluent setup, coupled calibration, optimization, economics, figures, videos, and report assets. Write final_audit_report.md and final_audit_checklist.csv without overwriting baseline results.

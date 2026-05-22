@@ -1,0 +1,1 @@
+Use the simulation automation skill for a Simulink-only workflow. Build or audit a repeatable MATLAB/Simulink project with parameter initialization, case scripts, logging, solver settings, postprocessing, model screenshots, result figures, and a final audit. Preserve baseline results and document all units and assumptions.

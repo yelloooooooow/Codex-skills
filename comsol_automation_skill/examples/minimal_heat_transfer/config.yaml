@@ -1,0 +1,116 @@
+{
+  "project": {
+    "name": "minimal_heat_transfer",
+    "description": "Generic 2D transient heat-transfer rectangle with fixed and convective boundaries.",
+    "mode": "full_workflow",
+    "output_dir": "artifacts/minimal_heat_transfer"
+  },
+  "comsol": {
+    "server_host": "localhost",
+    "server_port": 2036,
+    "use_existing_server": true,
+    "model_name": "GenericModel",
+    "model_file": null,
+    "connect_timeout_s": 30,
+    "cleanup_policy": "keep_current_model"
+  },
+  "java_migration": {
+    "enabled": false,
+    "source_dir": "java_src",
+    "output_dir": "artifacts/java_migration",
+    "sanitize_before_analysis": true,
+    "keep_original_java": false,
+    "generate_mapping_report": true
+  },
+  "geometry": {
+    "dimension": "2d",
+    "length_unit": "m",
+    "primitives": [
+      {
+        "tag": "r1",
+        "type": "Rectangle",
+        "size": [
+          "1[m]",
+          "0.5[m]"
+        ],
+        "pos": [
+          "0[m]",
+          "0[m]"
+        ]
+      }
+    ],
+    "operations": [],
+    "selections": {
+      "domain_all": {
+        "dimension": 2,
+        "method": "all"
+      }
+    }
+  },
+  "materials": [
+    {
+      "tag": "mat1",
+      "name": "Generic material",
+      "domains": [
+        "domain_all"
+      ]
+    }
+  ],
+  "parameters": {},
+  "variables": {},
+  "physics": {
+    "enabled": {
+      "heat_transfer": true
+    },
+    "boundary_conditions": [
+      {
+        "name": "left_temperature",
+        "type": "temperature"
+      },
+      {
+        "name": "right_convection",
+        "type": "convective_flux"
+      }
+    ]
+  },
+  "mesh": {
+    "mode": "physics_controlled",
+    "size": "normal"
+  },
+  "solver": {
+    "study_type": "time_dependent",
+    "time_dependent": {
+      "t_start": 0,
+      "t_end": 10,
+      "output_step": 0.1,
+      "unit": "s"
+    },
+    "tolerances": {
+      "relative_tolerance": 0.001,
+      "absolute_tolerance": "auto"
+    }
+  },
+  "export": {
+    "csv": true,
+    "png": true,
+    "field_data": false,
+    "keyframes": true,
+    "animations": false,
+    "report": true
+  },
+  "validation": {
+    "enabled": false,
+    "reference_data": null,
+    "metrics": [
+      "RMSE",
+      "NRMSE",
+      "endpoint_error",
+      "trend_agreement"
+    ]
+  },
+  "privacy": {
+    "sanitize_outputs": true,
+    "strip_metadata": true,
+    "scan_before_finish": true
+  }
+}

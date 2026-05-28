@@ -1,0 +1,4 @@
+mph>=1.2.4
+PyYAML>=6.0
+matplotlib>=3.8
+imageio>=2.34

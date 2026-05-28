@@ -1,0 +1,10 @@
+{
+  "physics": {
+    "enabled": {
+      "heat_transfer": true,
+      "species_transport": false,
+      "domain_odes": false
+    },
+    "boundary_conditions": []
+  }
+}

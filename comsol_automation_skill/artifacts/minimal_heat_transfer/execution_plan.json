@@ -1,0 +1,20 @@
+{
+  "mode": "dry-run",
+  "project": {
+    "description": "Generic 2D transient heat-transfer rectangle with fixed and convective boundaries.",
+    "mode": "full_workflow",
+    "name": "minimal_heat_transfer",
+    "output_dir": "artifacts/minimal_heat_transfer"
+  },
+  "requires_comsol": false,
+  "steps": [
+    "load_config",
+    "check_environment",
+    "check_privacy",
+    "skip_server_connection",
+    "skip_build",
+    "skip_solver",
+    "skip_postprocess",
+    "generate_report"
+  ]
+}

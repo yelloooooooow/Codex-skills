@@ -1,0 +1,20 @@
+{
+  "mode": "dry-run",
+  "project": {
+    "description": "Generic A to B reaction-diffusion model with optional Domain ODE states.",
+    "mode": "full_workflow",
+    "name": "minimal_reaction_diffusion",
+    "output_dir": "artifacts/minimal_reaction_diffusion"
+  },
+  "requires_comsol": false,
+  "steps": [
+    "load_config",
+    "check_environment",
+    "check_privacy",
+    "skip_server_connection",
+    "skip_build",
+    "skip_solver",
+    "skip_postprocess",
+    "generate_report"
+  ]
+}

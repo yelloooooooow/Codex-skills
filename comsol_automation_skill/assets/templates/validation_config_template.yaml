@@ -1,0 +1,8 @@
+{
+  "validation": {
+    "enabled": false,
+    "reference_data": null,
+    "metrics": ["RMSE", "NRMSE", "endpoint_error", "trend_agreement"],
+    "comparability_statement": "Reference data are not configured."
+  }
+}

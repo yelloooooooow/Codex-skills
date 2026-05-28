@@ -1,0 +1,9 @@
+{
+  "mesh": {
+    "mode": "physics_controlled",
+    "size": "normal",
+    "element_type": "auto",
+    "refinement": {"enabled": false, "selections": []},
+    "quality_check": {"enabled": true, "export_statistics": true, "export_plot": true}
+  }
+}

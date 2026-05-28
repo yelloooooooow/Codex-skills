@@ -1,0 +1,20 @@
+{
+  "mode": "dry-run",
+  "project": {
+    "description": "Generic parameter-sweep model for heat transfer or diffusion.",
+    "mode": "full_workflow",
+    "name": "minimal_parametric_sweep",
+    "output_dir": "artifacts/minimal_parametric_sweep"
+  },
+  "requires_comsol": false,
+  "steps": [
+    "load_config",
+    "check_environment",
+    "check_privacy",
+    "skip_server_connection",
+    "skip_build",
+    "skip_solver",
+    "skip_postprocess",
+    "generate_report"
+  ]
+}

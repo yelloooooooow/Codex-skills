@@ -1,0 +1,11 @@
+{
+  "export": {
+    "csv": true,
+    "png": true,
+    "field_data": false,
+    "keyframes": true,
+    "animations": false,
+    "report": true,
+    "plots": []
+  }
+}

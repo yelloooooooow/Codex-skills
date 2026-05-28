@@ -1,0 +1,13 @@
+{
+  "geometry": {
+    "dimension": "2d",
+    "length_unit": "m",
+    "primitives": [
+      {"tag": "r1", "type": "Rectangle", "size": ["1[m]", "0.5[m]"], "pos": ["0[m]", "0[m]"]}
+    ],
+    "operations": [],
+    "selections": {
+      "domain_all": {"dimension": 2, "method": "all"}
+    }
+  }
+}

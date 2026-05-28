@@ -1,0 +1,9 @@
+{
+  "solver": {
+    "study_type": "time_dependent",
+    "time_dependent": {"t_start": 0, "t_end": 10, "output_step": 0.1, "unit": "s"},
+    "parametric_sweep": {"enabled": false, "parameters": []},
+    "tolerances": {"relative_tolerance": 0.001, "absolute_tolerance": "auto"},
+    "recovery": {"save_model_before_solve": true, "save_model_after_solve": true, "save_solver_log": true}
+  }
+}

@@ -1,0 +1,3 @@
+display_name: COMSOL Automation
+short_description: Automate COMSOL workflows with Python/mph.
+default_prompt: Use this skill to plan, build, solve, export, validate, or document a COMSOL automation workflow. Start from config, support dry-run, and protect private paths and model metadata.

@@ -1,0 +1,109 @@
+{
+  "calls": {
+    "component": [
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": "model.component()"
+      },
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": "model.component(\"comp1\")"
+      },
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": "model.component(\"comp1\")"
+      },
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": "model.component(\"comp1\")"
+      },
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": "model.component(\"comp1\")"
+      },
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": "model.component(\"comp1\")"
+      },
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": "model.component(\"comp1\")"
+      }
+    ],
+    "export": [
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": ".export()"
+      }
+    ],
+    "geometry": [
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": ".geom()"
+      },
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": ".geom(\"geom1\")"
+      },
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": ".geom(\"geom1\")"
+      },
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": ".geom(\"geom1\")"
+      }
+    ],
+    "material": [],
+    "mesh": [
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": ".mesh()"
+      }
+    ],
+    "physics": [
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": ".physics()"
+      }
+    ],
+    "result": [
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": "model.result()"
+      }
+    ],
+    "solver": [],
+    "study": [
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": "model.study()"
+      },
+      {
+        "file": "examples\\java_to_mph_minimal_example\\sanitized_example.java",
+        "snippet": "model.study(\"std1\")"
+      }
+    ]
+  },
+  "feature_types": [
+    "Rectangle",
+    "Transient"
+  ],
+  "files": [
+    "examples\\java_to_mph_minimal_example\\sanitized_example.java"
+  ],
+  "properties": [
+    "size"
+  ],
+  "sensitive_findings": [],
+  "tags": [
+    "comp1",
+    "geom1",
+    "ht",
+    "mesh1",
+    "plot1",
+    "r1",
+    "std1",
+    "time"
+  ]
+}
